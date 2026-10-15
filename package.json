@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "wangeditor": "^4.7.15"
+  }
+}

@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+target/
+dist/
+build/
+coverage/
+*.class
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration and credentials
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-local.yaml
+application-local.properties
+*.pem
+*.key
+
+# Runtime uploads and database backups
+files/
+*.sql
+*.sql.gz
+*.dump
+# A reviewed, anonymized schema can be added here later.
+!database/schema.sql
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Packaged copies
+*.zip
+*.tar.gz
